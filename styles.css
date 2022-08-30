@@ -1,19 +1,9 @@
-/* etiqueta {propiedead : valor ; } */
-
-/* llamar a la etiqueta directo*/
-body{background-color: green;}
-
-*{border: 1px solid red;}
- #logo{
-    width: 20%;
- }
-/*llamar a una clase*/
-.titular{color: brown; font-size: 50px; }
-
-.rojo{color: red;}
-
-/*llamar a un id*/
-#titular3{color: blueviolet;}
+header{background-color: #f3f6f8;}
+#logo{width: 20vw; display: inline;}
+#titulo{color: #393939;text-align: center;font-weight: bolder ;font-family: 'Source Sans Pro', sans-serif;}
+li{display: inline;}
+.texto-naranja{color:#d54e21}
+ul{display: inline}
 
 #relativa{
     position: relative;
