@@ -5,19 +5,8 @@ header{background-color: #f3f6f8;position: sticky; top: 0;}
 #descr1{font-size: 2.1vw ;color: black;text-align: center;font-weight: normal ;font-family: 'Source Sans Pro', sans-serif;}
 li{display: inline; padding: 2vh;}
 .texto-naranja{color:#d54e21}
-
 ul{display: inline;position:absolute; right: 5%;;}
 a{text-decoration: none;font-size: 2vw ;color: #000000;text-align: right ;font-family: 'Asap', sans-serif;}
-
-
-ul{position:absolute; right: 5%;margin-top: -42px;}
-a{text-decoration: none;font-size: 2vw ;color: #000000;text-align: right ;font-family: 'Asap', sans-serif;}
-header{position: sticky; top: 0; background-color: #f3f6f8; margin-top: -15px; width: 98.8vw; margin-left: -10px;}
-
-ul{display: inline}
-a{text-decoration: none;font-size: 2vw ;color: #000000;text-align: right ;font-family: 'Asap', sans-serif;}
-header{position: sticky; top: 0;}
-
 .centrar_div{display: flex;
     justify-content: center;
     align-items: center;
