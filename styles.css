@@ -1,13 +1,12 @@
-header{background-color: #f3f6f8;}
+header{background-color: #f3f6f8;position: sticky; top: 0;}
 #logo{width: 20vw; display: inline;}
 #titulo{font-size: 6vw ;text-align: center;font-weight: bolder ;font-family: 'Source Sans Pro', sans-serif;}
 .color_principal{color: #393939;}
 #descr1{font-size: 2.1vw ;color: black;text-align: center;font-weight: normal ;font-family: 'Source Sans Pro', sans-serif;}
-li{display: inline;}
+li{display: inline; padding: 2vh;}
 .texto-naranja{color:#d54e21}
-ul{display: inline}
+ul{display: inline;position:absolute; right: 5%;;}
 a{text-decoration: none;font-size: 2vw ;color: #000000;text-align: right ;font-family: 'Asap', sans-serif;}
-header{position: sticky; top: 0;}
 .centrar_div{display: flex;
     justify-content: center;
     align-items: center;
