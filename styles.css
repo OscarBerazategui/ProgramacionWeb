@@ -1,12 +1,27 @@
+<<<<<<< HEAD
 header{background-color: #f3f6f8;position: sticky; top: 0;}
+=======
+>>>>>>> 5c5fed8e899dc9c9b0de197d6fced0f5c7653231
 #logo{width: 20vw; display: inline;}
 #titulo{font-size: 6vw ;text-align: center;font-weight: bolder ;font-family: 'Source Sans Pro', sans-serif;}
 .color_principal{color: #393939;}
 #descr1{font-size: 2.1vw ;color: black;text-align: center;font-weight: normal ;font-family: 'Source Sans Pro', sans-serif;}
 li{display: inline; padding: 2vh;}
 .texto-naranja{color:#d54e21}
+<<<<<<< HEAD
 ul{display: inline;position:absolute; right: 5%;;}
 a{text-decoration: none;font-size: 2vw ;color: #000000;text-align: right ;font-family: 'Asap', sans-serif;}
+=======
+<<<<<<< HEAD
+ul{position:absolute; right: 5%;margin-top: -42px;}
+a{text-decoration: none;font-size: 2vw ;color: #000000;text-align: right ;font-family: 'Asap', sans-serif;}
+header{position: sticky; top: 0; background-color: #f3f6f8; margin-top: -15px; width: 98.8vw; margin-left: -10px;}
+=======
+ul{display: inline}
+a{text-decoration: none;font-size: 2vw ;color: #000000;text-align: right ;font-family: 'Asap', sans-serif;}
+header{position: sticky; top: 0;}
+>>>>>>> ecaf090b5d900c94e60d846a71468264eb21592b
+>>>>>>> 5c5fed8e899dc9c9b0de197d6fced0f5c7653231
 .centrar_div{display: flex;
     justify-content: center;
     align-items: center;
