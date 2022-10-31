@@ -63,11 +63,16 @@ a{text-decoration: none;
 }
 
   @media only screen and (max-width: 600px) {
-    header{position: static}
-    #logo{width: 90vw;}
+    header{position: static;
+    vertical-align: center;}
+    #logo{width: 90vw;
+    justify-content: center;
+    align-items: center;}
     #titulo{font-size: 12vw }
     #descr1{font-size: 4vw}
     li{padding: 4vh; display: flex;justify-content: center;align-items: center;height: 2vw}
     a{font-size: 7vw }
     ul{position:relative;}
   }
+
+
