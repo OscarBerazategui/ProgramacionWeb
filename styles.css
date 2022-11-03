@@ -100,7 +100,7 @@ ul{display: inline;
 }
 .subcontainer{
   width: 100%;
-  height: 100%;
+  height: 80%;
   margin: auto;
 }
 .slide-img{
@@ -173,7 +173,12 @@ ul{display: inline;
 .img-14{
   background-image: url(./images/escudos/61.jpg);
 }
-
+.escudos:hover{
+  display: none;
+}
+.escudos:{
+  
+}
 
 
 
