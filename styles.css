@@ -33,12 +33,11 @@ ul{display: inline;
   right: 5%;
 }
 a{text-decoration: none;
-  font-size: 2vw ;
+  font-size: 2.3vw ;
   color: #000000;
   font-family: 'Asap', sans-serif;
 }
 a:hover{text-decoration: none;
-  font-size: 2vw ;
   color: #000000;
   font-family: 'Asap', sans-serif;
 }
@@ -73,5 +72,3 @@ a:hover{text-decoration: none;
     a{font-size: 7vw }
     ul{position:relative;}
 }
-
-
