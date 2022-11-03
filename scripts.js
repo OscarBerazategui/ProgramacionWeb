@@ -1,31 +1,33 @@
-    const carouselExampleControls = document.querySelector
-    ("#carouselExampleConstrols");
-    if (window.matchMedia("(min-width: 600px)").matches) {
-    const carousel = new bootstrap.Carousel(carouselExampleControls, {
-      interval: false,
-    });
+let slider = tns({
+    container : ".my-slider",
+    "slideBy" : "4",
+    "speed" : 1200,
+    "nav" : false,
+    autoplay:true,
+    controls: false,
 
-    var carouselWidth = $(".carousel-contenedor")[0].scrollWidth;
-    var cardWidth = $(".carousel-item").width();
-    
-    var scrollPosition = 0;
-    
-    $(".carousel-control-next").on("click", function () {
-      if (scrollPosition < (carouselWidth - (cardWidth * 4))) {
-        console.log("next");
-        scrollPosition += cardWidth;
-        $(".carousel-contenedor").animate({scrollLeft: scrollPosition},
-          600);
-      }
-    });
-    $(".carousel-control-prev").on("click", function () {
-      if (scrollPosition > 0) {
-        console.log("prev");
-        scrollPosition -= cardWidth;
-        $(".carousel-contenedor").animate({scrollLeft: scrollPosition},
-          600);
-      }
-    });
-  } else {
-    $(carouselExampleControls).addClass("slide");
-  }
+
+    autoplayButtonOutput : false,
+    responsive : {
+        1600: {
+            items: 8,
+            gutter : 20
+        },
+        1024: {
+            items: 8,
+            gutter:20
+        },
+        768:{
+            items: 4,
+            gutter: 20
+        },
+        480:{
+            items:3,
+            gutter:20
+        },
+        320:{
+            items:3,
+            gutter:20
+        }
+    }
+      })
