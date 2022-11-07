@@ -2,6 +2,9 @@ header{background-color: #f3f6f8;
   position: sticky;
   top: 0;
 }
+footer{background-color:#393939
+}
+
 #logo{width: 20vw;
   display: inline;
 }
@@ -51,15 +54,32 @@ ul{display: inline;
 .titulo_rojo{color: #b91616
 }
 .grilla{display:grid;  
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 25% 50% 25%;
   padding: 1vw;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+.grilla-footer{display:grid;  
+  grid-template-columns: 33% 33% 33%;
+  padding: 1vw;
+}
+#mapa{
+  padding: 1vw;
+  color: white;
+}
+h6{
+  color: white;
+}
+.link-footer{
+  text-decoration: none;
+  color: rgb(179, 155, 155);
+}
+.link-footer:hover{text-decoration: none;
+  color: rgb(179, 155, 155);
 }
 
 .boton{
@@ -84,6 +104,8 @@ ul{display: inline;
 }
 .vivo:hover{color: white;
 }
+
+
 
 
 
@@ -128,7 +150,7 @@ ul{display: inline;
   color: white;
 }
 .slide-img:hover a{
-  opacity: 1;
+  opacity: 0;
   transform: scale(1);
 }
 .img-1{
@@ -173,15 +195,19 @@ ul{display: inline;
 .img-14{
   background-image: url(./images/escudos/61.jpg);
 }
-.escudos:hover{
-  display: none;
+.transmision-logo{
+  width: 100%;
 }
-.escudos:{
-  
+.equipos{
+  width: 100%;
 }
-
-
-
+.enlaces{
+  width: 25%;
+  padding-top: 10%;
+}
+.escudo{
+  width: 50%;
+}
   @media only screen and (max-width: 600px) {
     header{position: static;
     vertical-align: center;}
@@ -201,6 +227,25 @@ ul{display: inline;
     font-weight: normal;}
     .boton{border-radius: 4vw;}
     #slider{display: none;}
+    .grilla{display:inline;  
+      padding: 1vw;
+    }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .youtube-logo{width: 100%;}
+    .equipos{width: 100%;}
+    .enlaces{width: 15vh;}
+    .enlaces{
+      width: 25%;
+    }
+    .escudo{
+      width: 25%;
+    }
+
 }
 
 
