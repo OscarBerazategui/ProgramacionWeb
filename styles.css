@@ -53,6 +53,12 @@ ul{display: inline;
 }
 .titulo_rojo{color: #b91616
 }
+.titulo_negro{color: black
+}
+.titulo_verde{color: green
+}
+.titulo_azul{color: blue
+}
 .grilla{display:grid;  
   grid-template-columns: 25% 50% 25%;
   padding: 1vw;
@@ -80,6 +86,29 @@ h6{
 }
 .link-footer:hover{text-decoration: none;
   color: rgb(179, 155, 155);
+}
+.grilla-ligas{display:grid;  
+  grid-template-columns: 50% 50%;
+  padding: 1vw;
+}
+.grilla-ligas-foto{
+  width: 40vw;
+  border-radius: 1.3vw; 
+  padding-left: 10vw;
+}
+.grilla-equipos{display:grid;
+  height: 80%;  
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.grilla-equipos-foto{
+  width: 15vw;
+  border-radius: 1.3vw;
+  padding: 3vh 3vw;
+}
+.titulo-liga{
+  text-align: center;
+  font-weight: bold;
+  color: #d54e21;
 }
 
 .boton{
@@ -157,43 +186,70 @@ h6{
   background-image: url(./images/escudos/1.jpg);
 }
 .img-2{
-  background-image: url(./images/escudos/12.jpg);
+  background-image: url(./images/escudos/6.jpg);
 }
 .img-3{
-  background-image: url(./images/escudos/15.jpg);
+  background-image: url(./images/escudos/12.jpg);
 }
 .img-4{
-  background-image: url(./images/escudos/16.jpg);
+  background-image: url(./images/escudos/15.jpg);
 }
 .img-5{
-  background-image: url(./images/escudos/22.jpg);
+  background-image: url(./images/escudos/16.jpg);
 }
 .img-6{
-  background-image: url(./images/escudos/23.jpg);
+  background-image: url(./images/escudos/22.jpg);
 }
 .img-7{
-  background-image: url(./images/escudos/28.jpg);
+  background-image: url(./images/escudos/23.jpg);
 }
 .img-8{
-  background-image: url(./images/escudos/36.jpg);
+  background-image: url(./images/escudos/28.jpg);
 }
 .img-9{
-  background-image: url(./images/escudos/37.jpg);
+  background-image: url(./images/escudos/36.jpg);
 }
 .img-10{
-  background-image: url(./images/escudos/41.jpg);
+  background-image: url(./images/escudos/37.jpg);
 }
 .img-11{
-  background-image: url(./images/escudos/43.jpg);
+  background-image: url(./images/escudos/41.jpg);
 }
 .img-12{
-  background-image: url(./images/escudos/52.jpg);
+  background-image: url(./images/escudos/43.jpg);
 }
 .img-13{
-  background-image: url(./images/escudos/6.jpg);
+  background-image: url(./images/escudos/52.jpg);
 }
 .img-14{
   background-image: url(./images/escudos/61.jpg);
+}
+.img-15{
+  background-image: url(./images/escudos/63.jpg);
+}
+.img-16{
+  background-image: url(./images/escudos/64.jpg);
+}
+.img-17{
+  background-image: url(./images/escudos/73.jpg);
+}
+.img-18{
+  background-image: url(./images/escudos/74.jpg);
+}
+.img-19{
+  background-image: url(./images/escudos/75.jpg);
+}
+.img-20{
+  background-image: url(./images/escudos/77.jpg);
+}
+.img-21{
+  background-image: url(./images/escudos/82.jpg);
+}
+.img-22{
+  background-image: url(./images/escudos/87.jpg);
+}
+.img-23{
+  background-image: url(./images/escudos/89.jpg);
 }
 .transmision-logo{
   width: 100%;
@@ -229,6 +285,27 @@ h6{
     #slider{display: none;}
     .grilla{display:inline;  
       padding: 1vw;
+    }
+    #mapa{  
+      text-align: center;
+    }
+    .grilla-footer{display:inline;  
+      text-align: center;
+    }
+    .grilla-ligas{display:inline;  
+      padding: 1vw;
+    }
+    .grilla-ligas-foto{
+      width: 80vw;
+      padding-left: 10vw;
+    }
+    .grilla-equipos{
+      grid-template-columns: 30vw 30vw 30vw;
+      width: 30vw;
+
+    }
+    .grilla-equipos-foto{
+      width: 30vw;
     }
     .grid-item {
       background-color: rgba(255, 255, 255, 0.8);
