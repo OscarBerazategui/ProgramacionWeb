@@ -55,9 +55,9 @@ ul{display: inline;
 }
 .titulo_negro{color: black
 }
-.titulo_verde{color: green
+.titulo_verde{color: rgb(13, 104, 13)
 }
-.titulo_azul{color: blue
+.titulo_azul{color: rgb(31, 31, 143)
 }
 .grilla{display:grid;  
   grid-template-columns: 25% 50% 25%;
@@ -264,6 +264,26 @@ h6{
 .escudo{
   width: 50%;
 }
+#contacto{
+  padding: 5vh;
+  text-align: center;
+  color:#393939
+}
+.fondo{
+  width: 100%;
+}
+
+#valorProducto{display:none}
+#listaProductos{display:none}
+#Submit1{background-color: rgb(52, 52, 52);text-align: center;} 
+#Pelota{width: 90px;float: left;}
+.btnnbtn-primary{color:#393939 ;bottom: 10px;}
+.btnnnbtn-primary{color:#393939}
+.submit{background-color:#d54e21 ;color: white;height: 40px;}
+
+
+
+
   @media only screen and (max-width: 600px) {
     header{position: static;
     vertical-align: center;}

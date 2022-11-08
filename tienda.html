@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handball.ar</title>
+    <link rel="shortcut icon" href="./images/fav.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+</head>
+  <body>
+    <header main header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img id="logo" src="./images/logo.png" alt="logo handball.ar"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="linksa" href="/ligas.html">Equipos</a>
+              </li>
+              <li class="nav-item">
+                <a class="linksa" href="./tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="linksa" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <form action="https://formsubmit.co/f54d2fdf799e2a135cede680e644b082" method="POST">
+            <div class="col-md-6">
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="Nombre" name="Nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="inputmail" class="form-label">E-Mail</label>
+                <input type="text" class="form-control" id="mail" name="mail">
+            </div> <br>
+            <div class="col-sm-10">
+                <p>Método de pago</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Pago" id="gridRadios1" value="Efectivo" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Efectivo (en el momento de la entrega)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Pago" id="gridRadios2" value="Cuenta Bancaria">
+                  <label class="form-check-label" for="gridRadios2">
+                    Cuenta Bancaria (te enviaremos un mail para procesar el pago)
+                  </label>
+                </div><br>
+            <div class="col-sm-11">
+                <label for="inputTelefono" class="form-label">Telefono</label>
+                <input type="number" class="form-control" id="Telefono" name="Telefono">
+            </div>
+            <input type="text" name="Total" id="valorProducto" >
+                
+            <textarea name="Productos" id="listaProductos" ></textarea>
+           
+            <div class="col-sm-14" id="Tienda">  
+            <br>
+            <h2>Tienda</h2>
+            </div> 
+            <br>
+            <div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">PRODUCTOS</th>
+                    <th scope="col">PRECIO</th>
+                  </tr>
+                </thead>
+                <div>
+                    <tr>
+                      <th scope="row"><img src="./images/tienda/pelota1.jpg" id="Pelota" alt="">
+                        <P>Pelota Penalty Nº3</P></th>
+                      <td> <p id="Radio"><input type="radio" onclick="sumaProductos(8000, 'Penalty' )">$8000</p></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="./images/tienda/pelota2.png" id="Pelota" alt="">
+                          <P>Pelota Molten Nº3</P></th>
+                        <td> <p id="Radio"><input type="radio" onclick="sumaProductos(10000, 'Molten' )">$10000</p></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="./images/tienda/pelota3.jpg" id="Pelota" alt="">
+                          <P>Pelota Euro Nº2</P></th>
+                        <td> <p id="Radio"><input type="radio" onclick="sumaProductos(12000, 'Euro' )">$12000</p></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="./images/tienda/medias1.jpg" id="Pelota" alt="">
+                          <P>Medias de compresión HUMMEL</P></th>
+                        <td> <p id="Radio"><input type="radio" onclick="sumaProductos(6000, 'HummelMed' )">$6000</p></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="./images/tienda/rodilleras1.jpg" id="Pelota" alt="">
+                          <P>Rodilleras HUMMEL</P></th>
+                        <td> <p id="Radio"><input type="radio" onclick="sumaProductos(11000, 'HummelRod' )">$11000</p></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="./images/tienda/vinchas1.jpg" id="Pelota" alt="">
+                          <P>Pack 6 vinchas NIKE</P></th>
+                        <td> <p id="Radio"><input type="radio" onclick="sumaProductos(14000, 'Nike' )">$14000</p></td>
+                    </tr>
+                </div>
+        </div>
+            <div class="zona_calculadora" id="icalculadora">
+                <div class="texto_calcu"></div>
+                <div class="d-grid gap-2 col-6 mx-auto" id="carrito">
+                    <button class="btnnbtn-primary" type="button" disabled>
+                        <div class="zona_calculo2" id="calculadora"></div>
+                         <div id="elTotal">  CARRITO   TOTAL: 0 Pesos</div>
+                         <button type="button" class="btn btn-primary " onclick="Limpiar()">Vaciar Carrito</button>
+                         <button type="submit" class="submit">ENVIAR</button>
+                    </button>   
+                </div>  
+                
+            </div>
+        </form>
+
+
+    <br>    
+    </main>
+    <script>
+        let arrayProducto =[]
+        let Total = 0
+        function sumaProductos(Valoritem, Producto) {
+            arrayProducto.push(Producto)
+          Total = Total + Valoritem
+          document.getElementById("elTotal").innerHTML = "TOTAL: " + "$" + Total; 
+          console.log(arrayProducto);
+          document.getElementById("valorProducto").value = Total
+          document.getElementById("listaProductos").value=arrayProducto
+          return Total}
+    
+        function Limpiar() {
+          Total=0
+          document.getElementById("elTotal").innerHTML = "TOTAL: " + "$" + 0; }
+    
+    </script>
+    </body>
+</html>
