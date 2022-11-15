@@ -43,7 +43,16 @@
             <a target="_blank" class="enlaces" href="https://www.facebook.com/VelezHandball"><img class="enlaces" src="./images/logos/facebook.png" alt=""></a>
             </div>
             <div class="grid-item"><a target="_blank" class="enlaces" href="http://maps.google.com.ar/maps?f=q&source=s_q&hl=es&geocode=&q=Juan+B.+Justo+9200,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&aq=0&sll=-34.623391,-58.493013&sspn=0.03136,0.054846&ie=UTF8&hq=&hnear=Av+Juan+B.+Justo+9200,+Versalles,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&ll=-34.632819,-58.51593&spn=0.007839,0.013711&z=16"><img class="enlaces" src="./images/logos/maps.png" alt=""></a></div>  
-            <div class="grid-item"><a target="_blank" href="https://www.twitch.tv/hb_vlz"><img class="transmision-logo" src="./images/ver-transmision.png" alt=""></a></div>
+            <div class="grid-item">
+              <div id="twitch-embed"></div>
+              <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+              <script type="text/javascript">
+                new Twitch.Player("twitch-embed", {
+                  channel: "hb_vlz",
+                  height:300
+                });
+              </script>  
+            <a target="_blank" href="https://www.youtube.com/channel/UCiF0Q6f-6iBUsIJETxvcYJA"><img class="transmision-logo" src="./images/ver-transmision.png" alt=""></a></div>
             <div class="grid-item"><a target="_blank" class="enlaces" href="https://es.wikipedia.org/wiki/Club_Atlético_Vélez_Sarsfield"><img class="enlaces" src="./images/logos/wikipedia.png" alt=""></a></div>  
             <div class="grid-item"></div>
             <div class="grid-item"><img class="equipos" src="./images/equipos/plantel/87.png" alt=""></div>

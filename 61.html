@@ -42,7 +42,14 @@
             <div class="grid-item"><a target="_blank" class="enlaces" href="https://www.instagram.com/vilohandball/"><img class="enlaces" src="./images/logos/instagram.png" alt=""></a><a target="_blank" class="enlaces" href="https://www.facebook.com/vilohandball"><img class="enlaces" src="./images/logos/facebook.png" alt=""></a></div>
             <div class="grid-item"><a target="_blank" class="enlaces" href="http://maps.google.com.ar/maps?f=q&source=s_q&hl=es&geocode=&q=Bartolom%C3%A9+Cruz+1175&aq=&sll=-34.352126,-58.7996&sspn=0.015731,0.027423&ie=UTF8&hq=&hnear=Bartolom%C3%A9+Cruz+1175,+Vicente+L%C3%B3pez,+Buenos+Aires&ll=-34.522121,-58.471899&spn=0.015699,0.027423&z=15"><img class="enlaces" src="./images/logos/maps.png" alt=""></a></div>  
             <div class="grid-item">
-              <iframe src="https://player.twitch.tv/?channel=vilohandball&parent=programacion-web-three.vercel.app/" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+            <div id="twitch-embed"></div>
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <script type="text/javascript">
+              new Twitch.Player("twitch-embed", {
+                channel: "vilohandball",
+                height:300
+              });
+            </script>
               <a target="_blank" href="https://www.youtube.com/channel/UC4V8JQH9VaLdt1nE5sWda1g"><img class="transmision-logo" src="./images/ver-transmision.png" alt=""></a></div>
             <div class="grid-item"><a target="_blank" class="enlaces" href="https://twitter.com/vilohandball?lang=es"><img class="enlaces" src="./images/logos/twitter.png" alt=""></a></div>  
             <div class="grid-item"></div>
