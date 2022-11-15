@@ -4,7 +4,10 @@ header{background-color: #f3f6f8;
 }
 footer{background-color:#393939
 }
-
+iframe {
+  border: 1px solid black;
+  width: 100%;
+}
 #logo{width: 20vw;
   display: inline;
 }
